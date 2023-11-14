@@ -12,7 +12,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hi I am Rafe the Founder of <a href="https://rafemedia.com/">Rafe Media</a>, lover of all things, Apple and tech in general. </p>
+        <p>Welcome to the Blog of <a href="https://rafemedia.com/">Rafe Media</a>, Have Fun and Enjoy. </p>
        
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
