@@ -4,7 +4,7 @@ import styles from '../styles/404.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
-const name = 'Rafe Milner';
+const name = 'Rafe Media';
 export const siteTitle = 'Rafe Media Blog';
 
 export default function Custom404() {
