@@ -9,7 +9,11 @@ export const siteTitle = 'Rafe Media Blog';
 
 export default function Custom404() {
   return (
+
+    
     <div className={styles.container}>
+
+<link rel="icon" href="/favicon.svg" />
 
     <Head> <title>404 - Page Not Found</title> </Head>
       <h1 className={utilStyles.headingXl} >404 - Page Not Found</h1>
