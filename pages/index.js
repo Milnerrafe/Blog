@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
-import { TwitterShareButton, TwitterIcon, FacebookShareButton, FacebookIcon, RedditShareButton, RedditIcon,LinkeiInShareButton, LinkedinIcon  } from 'next-share'
+import { TwitterShareButton, TwitterIcon, FacebookShareButton, FacebookIcon, RedditShareButton, RedditIcon } from 'next-share'
 
 
 
@@ -38,12 +38,7 @@ export default function Home({ allPostsData }) {
 >
   <FacebookIcon size={32} round />
 </FacebookShareButton>
-<LinkedInShareButton
-  url={'https://blog.rafemedia.com/'}
-  title={'The Rafe Media Blog'}
->
-  <LinkedInIcon size={32} round />
-</LinkedInShareButton>
+
 
 
 
