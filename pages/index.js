@@ -56,6 +56,7 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+      <b>Found a problem with this page, <a href="https://github.com/Milnerrafe/Blog">Fix It on GitHub</a>. </b>
     </Layout>
   );
 }
