@@ -4,6 +4,9 @@ import utilStyles from '../styles/utils.module.css';
 import { getSortedPostsData } from '../lib/posts';
 import Link from 'next/link';
 import Date from '../components/date';
+import { TwitterShareButton, TwitterIcon, FacebookShareButton, FacebookIcon, RedditShareButton, RedditIcon,  } from 'next-share'
+
+
 
 export default function Home({ allPostsData }) {
   return (
@@ -13,7 +16,31 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Welcome to the Blog of <a href="https://rafemedia.com/">Rafe Media</a>, Have Fun and Enjoy. </p>
-       
+<div>
+        <TwitterShareButton
+  url={'https://blog.rafemedia.com/'}
+  title={'The Rafe Media Blog'}
+>
+  <TwitterIcon size={32} round />
+</TwitterShareButton>
+
+<RedditShareButton
+  url={'https://blog.rafemedia.com/'}
+  title={'The Rafe Media Blog'}
+>
+  <RedditIcon size={32} round />
+</RedditShareButton>
+
+<FacebookShareButton
+  url={'https://blog.rafemedia.com/'}
+  quote={'The Rafe Media Blog'}
+  hashtag={'#RafeMedia'}
+>
+  <FacebookIcon size={32} round />
+</FacebookShareButton>
+
+
+</div>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>

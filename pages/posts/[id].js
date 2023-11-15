@@ -3,7 +3,6 @@ import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css';
-import { TwitterShareButton, TwitterIcon, } from 'next-share'
 
 
 export default function Post({ postData }) {
@@ -20,13 +19,10 @@ export default function Post({ postData }) {
         </div>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
+
+
     </Layout>
 
-  <TwitterShareButton
-      url={'https://blog.rafemedia.com/{postData.title}'}
-      title={'{postData.title} On Rafe Media Blog'} >
-     <TwitterIcon size={32} round />
-  </TwitterShareButton>
 
 </div>
      
