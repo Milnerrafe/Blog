@@ -1,8 +1,3 @@
-<iframe
-  src="https://blog.rafemedia.com/"
-  style="width:100%; height:300px;"
-></iframe>
-
 This is The GitHub For The next js page of the Rafe Media Blog https://blog.rafemedia.com/
 
 If You have Found a problem with the blog fix it here on GitHub
